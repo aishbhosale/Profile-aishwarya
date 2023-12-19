@@ -12,14 +12,22 @@
     <style>
         table,tr,td,th{
             border: 1px solid black;
+            border-collapse: collapse;
             font-family: 'Roboto', sans-serif;
+            background-color: rgb(245, 244, 176);
         }
+#details:hover{
+    color: rgb(100, 7, 187);
+}
+#edu:hover{
+    color: rgb(238, 60, 16);
+}
     </style>
 </head>
 <body>
     <h2> My Educational Details</h2>
     <table>
-        <thead>
+        <thead id="details">
             <tr>
                 <th>Qualification</th>
                 <th>School/College </th>
@@ -28,7 +36,7 @@
                 <th>Percentage</th>
             </tr>
         </thead>
-        <tbody>
+        <tbody id="edu">
             <tr>
                 <td>BE</td>
                 <td>CSMIT,Shedung,Panvel</td>

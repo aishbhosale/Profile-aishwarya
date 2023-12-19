@@ -11,12 +11,12 @@
 <head>
     <style>
         table,tr,td,th{
-            border: 1px solid black 
-            
+            border: 1px solid black;
+            border-collapse: collapse;
+           background-color: rgb(228, 228, 238);
         }
         th{
             padding: 20px;
-            color: rgb(38, 4, 100);
             font-size: larger;
             font-family: 'Poppins', sans-serif;
         }
@@ -24,26 +24,39 @@
             padding: 20px;
             font-family: 'Roboto', sans-serif;
         }
+        #head:hover{
+            color: rgb(204, 236, 17);
+        }
+        #body:hover{
+            color: rgb(231, 13, 5);
+        }
+        #html:hover{
+            color: rgb(15, 224, 61);
+        }
+        #numb:hover{
+color: rgb(13, 203, 209);
+        }
+
     </style>
 </head>
 <body>
     <h3>Technology Stack</h3>
-    <table>
-        <thead>
+    <table >
+        <thead id="head">
             <tr>
                 <th>Sr.No</th>
                 <th>Technology Stack</th>
                 <th>Rating</th>
             </tr>
         </thead>
-        <tbody>
+        <tbody id="body">
             <tr>
                 <td>1</td>
-                <td>HTML</td>
+                <td id="html">HTML</td>
                 <td>4</td>
             </tr>
             <tr>
-                <td>2</td>
+                <td id="numb">2</td>
                 <td>CSS</td>
                 <td>4</td>
             </tr>

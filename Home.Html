@@ -8,6 +8,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Poppins&family=Roboto&display=swap" rel="stylesheet">
     <style>
+      body{
+        background-image: url(assets/istockphoto-1083762148-1024x1024.jpg);
+       font-weight: bold;
+      
+      }
       .heading {
         color: rgb(8, 8, 128);
         background-color: rgb(182, 175, 175);
@@ -42,9 +47,17 @@
       ul li {
         list-style-type: circle;
         font-family: 'Roboto', sans-serif;
+        list-style-type: none;
+
       }
       p{
         font-family: 'Roboto', sans-serif;
+      }
+      ul li::before{
+        content: "👉";
+      }
+      ul li:hover{
+        color: rgb(243, 44, 9);
       }
     </style>
   </head>
